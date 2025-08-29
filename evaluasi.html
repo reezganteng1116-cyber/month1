@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skyline Innovations</title>
+  <!-- CSS ada di folder css -->
+   <link rel="icon" href="img/icon_bisnis.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/evaluasi.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"><img src="img/icon_bisnis.png" style="border-radius: 20%; width: 30px; height: 30px; margin-right: 10px;">Skyline Innovations</div>
+    <nav id="menu" class="nav-links">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#vision">Visi & Misi</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="horizontal">
+    <img src="img/icon_bisnis.png" alt="Icon Bisnis" class="hero-img">
+    <section class="hero">
+      <h1>Selamat Datang di Skyline Innovations</h1>
+      <p>🚀 Startup Teknologi Berbasis AI untuk Solusi Masa Depan</p>
+    </section>
+    <hr>
+  </div>
+
+  <!-- Tentang -->
+  <section id="about" class="section">
+    <h2>Tentang Perusahaan</h2>
+    <p>Skyline Innovations adalah perusahaan rekayasa yang berdedikasi untuk menghadirkan solusi konstruksi dan teknik yang inovatif, efisien, dan berkelanjutan. Berdiri sejak tahun 2012 dan berbasis di kawasan industri Sindo, Singapura, perusahaan ini telah membuktikan diri sebagai pemain tangguh dalam sektor general building, instalasi struktural, dan interior finishing.</p>
+  </section>
+<!-- tim dan keunggulan -->
+  <div class="gallery">
+    <strong style="color:#0ea5e9;"><h1>Keunggulan Utama:</h1></strong>
+  <section class="section1">
+    <ul>
+      <h1><li>Spesialisasi Multidisiplin:</li>
+      </h1><p>Meliputi pekerjaan konstruksi minor, dekorasi interior, sistem dinding tirai, hingga struktur baja</p></ul>
+      <ul>
+      <h1><li>Lisensi Profesional:</li>
+      </h1><p>Terdaftar sebagai General Builder Class 1 dan Specialist Builder (Structural Steelwork), menjamin kualitas dan kepatuhan terhadap standar industri tertinggi</p></ul>
+      <ul>
+      <h1><li>Tim Ahli:</li></h1><p>Didukung oleh insinyur dan teknisi berpengalaman yang menggabungkan presisi teknis dengan kreativitas desain.</p></ul>
+      <ul><h1><li>Pendekatan Berkelanjutan:</li>
+      </h1><p>Skyline Innovations berkomitmen pada praktik ramah lingkungan dan efisiensi energi dalam setiap proyeknya.</p>
+      <!-- <li>Meningkatkan kesadaran akan pentingnya teknologi dalam kehidupan sehari-hari.</li>
+      <li>Menyadarkan generasi muda akan pengembangan teknologi dan inovasi.</li> -->
+    </ul>
+  </section>
+  </div>
+
+  <!-- Visi & Misi -->
+  <section id="vision" class="section">
+    <h2>Visi & Misi</h2>
+    <strong style="color:#0ea5e9;">Visi:</strong>
+    <p>Menjadi pelopor dalam rekayasa konstruksi yang mengintegrasikan teknologi mutakhir dan desain visioner untuk menciptakan ruang yang fungsional, estetis, dan tahan lama.</p>
+  </section>
+  <div class="gallery">
+  <section class="section">
+    <strong style="color:#0ea5e9;">Misi:</strong>
+    <ul>
+      <li>Mengembangkan aplikasi bermanfaat untuk masyarakat.</li>
+      <li>Mendorong pemanfaatan teknologi di bidang pendidikan & kesehatan.</li>
+      <li>Menciptakan solusi digital yang ramah pengguna.</li>
+      <li>Memberdayakan masyarakat melalui teknologi.</li>
+      <li>Meningkatkan kesadaran akan pentingnya teknologi dalam kehidupan sehari-hari.</li>
+      <li>Menyadarkan generasi muda akan pengembangan teknologi dan inovasi.</li>
+    </ul>
+  </section>
+  </div>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h1 align="center">Projects unggulan</h1>
+    <div class="gallery" align="center">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="img/logo1.png" alt="MediCareAI Logo" class="project-logo" style="border-radius: 30%;">
+        <h3>MediCareAI</h3>
+        <p>Aplikasi kesehatan berbasis AI untuk analisis gejala dan rekomendasi medis awal.</p>
+        <button class="btn-detail">
+          <a href="projects/mediacareai.html" style="color:black;">Lihat Detail</a>
+        </button>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="img/logo2.png" alt="SkyLearn Logo" class="project-logo" style="border-radius: 30%;">
+        <h3>SkyLearn</h3>
+        <p>Platform e-learning interaktif dengan materi personalisasi berbasis AI.</p>
+        <button class="btn-detail">
+          <a href="projects/skylearn.html" style="color:black;">Lihat Detail</a>
+        </button>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="img/logo3.png" alt="EcoTrack Logo" class="project-logo" style="border-radius: 30%;">
+        <h3>EcoTrack</h3>
+        <p>Aplikasi monitoring karbon untuk perusahaan dengan dashboard real-time.</p>
+        <button class="btn-detail">
+          <a href="projects/echotrack.html" style="color:black;">Lihat Detail</a>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Hubungi Kami</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Kritik & Saran"></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>📍 Lokasi: Jakarta, Indonesia</p>
+    <p>📞 Kontak: 
+      <a href="#">WhatsApp</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Telegram</a> | 
+      <a href="mailto:info@skyline.com">Gmail</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+    <p>&copy; 2025 Skyline Innovations. All rights reserved.(Jaisyurrahman)</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
